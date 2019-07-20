@@ -2,10 +2,14 @@
   "name": "react-workshop",
   "version": "1.0.0",
   "description": "this is support code written in react for workshop",
-  "main": "index.js",
+  "main": "App.js",
   "repository": "https://github.com/erdahuja/react-workshop.git",
   "author": "Deepak <er.d.ahuja@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
   "devDependencies": {
     "eslint": "^5.12.1",
     "eslint-config-prettier": "^4.0.0",

@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 const Pet = props => {
   const { name, animal, breed } = props;
   return React.createElement("div", {}, [
