@@ -1,0 +1,19 @@
+{
+  "name": "react-workshop",
+  "version": "1.0.0",
+  "description": "this is support code written in react for workshop",
+  "main": "index.js",
+  "repository": "https://github.com/erdahuja/react-workshop.git",
+  "author": "Deepak <er.d.ahuja@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^4.0.0",
+    "prettier": "^1.16.1"
+  },
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,jsx}\"",
+    "lint": "eslint \"**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
