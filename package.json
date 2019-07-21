@@ -11,13 +11,17 @@
     "react-dom": "^16.8.4"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.2",
     "eslint": "^5.12.1",
     "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
     "parcel-bundler": "^1.12.3",
     "prettier": "^1.16.1"
   },
   "scripts": {
-    "dev":"parcel index.html",
+    "dev": "parcel index.html",
     "format": "prettier --write \"**/*.{js,jsx}\"",
     "lint": "eslint \"**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
