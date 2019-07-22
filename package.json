@@ -7,6 +7,7 @@
   "author": "Deepak <er.d.ahuja@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "petfinder-client": "^1.0.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
